@@ -1,0 +1,11 @@
+! plotband.x is run interactively:
+! ~/Documents/Applications/qe-7.1/bin/plotband.x 
+
+bands.out 		! Input file for bands
+1 5				! Wave-functions on which to project
+1 100			! First and last k-point
+Si.xmgr			! Output file for xmgrace
+Si.ps 			! Output postscript file
+6.5634			! Fermi energy
+0.01, 6.5634	! Energy step, zero of the plot
+plot.gnu		! Plotting script for gnuplot
