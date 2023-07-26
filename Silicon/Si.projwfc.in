@@ -1,9 +1,0 @@
-&projwfc
-  prefix='Si',
-  outdir = 'tmp/'
-  degauss = 0.001,
-  DeltaE = 0.001,
-  Emin = -10,
-  Emax = 20,
-  filproj = 'bands.out.proj'
-/

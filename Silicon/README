@@ -1,7 +1,0 @@
-pw.x < Si.scf.in > Si.scf.out
-pw.x < Si.band.in > Si.band.out
-bands.x -i Si.bands.in > Si.bands.out
-projwfc.x -i Si.projwfc.in > Si.projwfc.out
-plotband.x < Si.plot.in > Si.plot.out
-
-If option lsym=.true, bands.x performs a symmetry analysis. An additional file sibands.dat.rep is generated, containing information on symmetry labels of the various bands. In this case, when running plotband.x, the output is written to sibands.plot.N.M, where N labels the high-symmetry lines, M labels irreducible representations
